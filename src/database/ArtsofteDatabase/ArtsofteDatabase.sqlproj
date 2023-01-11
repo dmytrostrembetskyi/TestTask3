@@ -6,7 +6,7 @@
     <Name>ArtsofteDatabase</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{23f40167-e05c-457b-ae73-38e34a4536ec}</ProjectGuid>
+    <ProjectGuid>{392e91ea-5969-43fc-9c97-def3faab78b8}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>

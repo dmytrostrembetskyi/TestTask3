@@ -1,14 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AFCB0D57-D7D9-4379-8B0D-8DACC6C0FFC5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{98DA64CB-16DB-4D05-86B4-A4F0897AF4AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "src\server\Core\Core.csproj", "{DE16C868-E2D6-4296-91D5-51FB728510CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "src\server\Core\Core.csproj", "{DE16C868-E2D6-4296-91D5-51FB728510CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "src\server\WebApi\WebApi.csproj", "{4C563576-AA61-4286-971E-7333765F926D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "src\server\WebApi\WebApi.csproj", "{4C563576-AA61-4286-971E-7333765F926D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{D9FBE347-AC51-4CAD-A8E0-9C579C4ADD35}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ArtsofteDatabase", "src\database\ArtsofteDatabase\ArtsofteDatabase.sqlproj", "{392E91EA-5969-43FC-9C97-DEF3FAAB78B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,11 +29,24 @@ Global
 		{4C563576-AA61-4286-971E-7333765F926D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C563576-AA61-4286-971E-7333765F926D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C563576-AA61-4286-971E-7333765F926D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392E91EA-5969-43FC-9C97-DEF3FAAB78B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392E91EA-5969-43FC-9C97-DEF3FAAB78B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392E91EA-5969-43FC-9C97-DEF3FAAB78B8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{392E91EA-5969-43FC-9C97-DEF3FAAB78B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392E91EA-5969-43FC-9C97-DEF3FAAB78B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392E91EA-5969-43FC-9C97-DEF3FAAB78B8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{98DA64CB-16DB-4D05-86B4-A4F0897AF4AC} = {AFCB0D57-D7D9-4379-8B0D-8DACC6C0FFC5}
 		{DE16C868-E2D6-4296-91D5-51FB728510CF} = {98DA64CB-16DB-4D05-86B4-A4F0897AF4AC}
 		{4C563576-AA61-4286-971E-7333765F926D} = {98DA64CB-16DB-4D05-86B4-A4F0897AF4AC}
 		{D9FBE347-AC51-4CAD-A8E0-9C579C4ADD35} = {AFCB0D57-D7D9-4379-8B0D-8DACC6C0FFC5}
+		{392E91EA-5969-43FC-9C97-DEF3FAAB78B8} = {D9FBE347-AC51-4CAD-A8E0-9C579C4ADD35}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9789DCB2-95E4-44DB-97AC-34542AC2E446}
 	EndGlobalSection
 EndGlobal
